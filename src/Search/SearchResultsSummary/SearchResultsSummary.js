@@ -212,7 +212,7 @@ export function SearchResultsSummary(props) {
           <span>Clear filters</span>
         </button>
 
-        <button
+        {/* <button
           className={`button is-info  ${styles["nextUser-button"]}`}
           onClick={(e) => {
             props.search(props.term, props.location);
@@ -222,12 +222,17 @@ export function SearchResultsSummary(props) {
           <span className="icon">
             <i className="fas fa-chevron-right"></i>
           </span>
-        </button>
+        </button> */}
         <button
           className={`button is-warning ${styles["submit-button"]}`}
           title="Disabled button"
           onClick={(e) => {
             console.log("Submit button works");
+            window.open(
+              "https://ancient-hollows-62522.herokuapp.com",
+              "_blank"
+            );
+            e.preventDefault();
           }}
         >
           Submit

@@ -235,7 +235,7 @@ export function SearchResultsSummary(props) {
             e.preventDefault();
           }}
         >
-          Submit
+          Submit your choice here!
         </button>
       </div>
     </div>

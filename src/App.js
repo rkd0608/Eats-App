@@ -4,7 +4,8 @@ import { Route, Switch } from "react-router-dom";
 import { Search } from "./Search/Search";
 import { People } from "./People/People";
 import { StarterPage } from "./StarterPage/StarterPage";
-import { FinalResult } from "./FinalResult/FinalResult";
+import { FinalPage } from "./FinalPage/FinalPage";
+import { LoadScreen } from "./Loading/LoadScreen";
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
       />
       <Route path="/landing" component={LandingPage} />
       <Route path="/people" component={People} />
-      <Route path="/result" component={FinalResult} />
+      <Route path="/final_result" component={FinalPage} />
+      <Route path="/loading" component={LoadScreen} />
     </Switch>
   );
 }

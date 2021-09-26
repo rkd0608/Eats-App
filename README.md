@@ -11,4 +11,4 @@ https://youtu.be/2qoJf4EqlEM
 <br/>
 
 <h2> Eats! </h2>
-https://tinyurl.com/2v2fy6nyv
+http://eatsapp-7aa6b.web.app
